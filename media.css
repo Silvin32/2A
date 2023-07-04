@@ -1,0 +1,49 @@
+@media screen and (max-width: 1800px){
+    body{
+        max-width: 800px;
+        
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        text-align: left;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    p{
+        max-width: 400px;
+    }
+
+    .info{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    
+    
+
+    li{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    ul{
+        padding-left: 0px;
+    }
+
+    img{
+        width: 400px;
+        height: 300px;
+    }
+
+    h2{
+        text-align: left;
+    }
+}
+
