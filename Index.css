@@ -30,8 +30,10 @@
         
 .botao1:hover {
     transform: scale(1.2);
-    cursor: grabbing}
+    cursor: grabbing;
+    transition: all 0.5s;}
     
 .botao2:hover {
     transform: scale(1.2);
-    cursor: grabbing;}
+    cursor: grabbing;
+    transition: all 0.5s;}
