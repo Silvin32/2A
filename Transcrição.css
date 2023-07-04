@@ -56,7 +56,7 @@ a{
 }
 
 h2{
-    text-align: center;
+    text-align: left;
     line-height: 10px;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -87,7 +87,50 @@ img{
     margin-left: 15px;
 }
 
-@media screen and 
+@media screen and (max-width: 900px){
+    body{
+        max-width: 800px;
+        
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        text-align: left;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    p{
+        max-width: 400px;
+    }
+
+    .info{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    
+    
+
+    li{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    ul{
+        padding-left: 0px;
+    }
+
+    img{
+        width: 400px;
+        height: 300px;
+    }
+}
 
 
 
