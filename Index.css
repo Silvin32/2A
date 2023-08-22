@@ -1,3 +1,20 @@
+.botao3 {
+    background: linear-gradient(pink, purple);
+    display: inline-block;
+    height: 60px;
+    line-height: 70px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 25px;
+    box-shadow: 5px 5px 0px;
+    font-family: monospace;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+
+
+
 .botao2 {
     background: linear-gradient(pink, purple);
     display: inline-block;
